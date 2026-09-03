@@ -49,53 +49,6 @@ The goal isn't to replace visits home. It's to close the gap in between — so a
 
 > These repositories are private. If you need access — investors, partners, contractors — reach out at [hello@famva.com](mailto:hello@famva.com).
 
-## How It Fits Together
-
-```mermaid
-flowchart LR
-    subgraph Clients
-        MOB[Mobile App<br/>Flutter]
-        WEB[Web<br/>Next.js — marketing + admin]
-    end
-
-    API[Backend API<br/>Node.js / Express]
-    WORKER[Background Workers<br/>Bull queues]
-
-    subgraph Data
-        PG[(PostgreSQL)]
-        REDIS[(Redis)]
-    end
-
-    subgraph AI["AI Orchestration"]
-        AI1[DeepSeek]
-        AI2[Gemini]
-        AI3[OpenAI]
-    end
-
-    subgraph THIRDPARTY["Third-Party"]
-        STRIPE[Stripe]
-        TWILIO[Twilio SMS]
-        FCM[Firebase Push]
-        S3[AWS S3]
-        CMS[Contentful]
-    end
-
-    MOB --> API
-    WEB --> API
-    API --> PG
-    API --> REDIS
-    API --> WORKER
-    WORKER --> REDIS
-    API --> AI
-    API --> STRIPE
-    WORKER --> TWILIO
-    WORKER --> FCM
-    API --> S3
-    WEB --> CMS
-```
-
-The backend runs a **multi-provider AI fallback chain** (DeepSeek → Gemini → OpenAI) so care plan, meal plan, and exercise generation keeps working even if a provider is degraded — with hardcoded safe defaults as a last resort. Health alerting itself is a deterministic, rule-based engine rather than an LLM, so it stays predictable and explainable.
-
 ## Tech Stack
 
 <div align="center">

@@ -26,7 +26,7 @@ We help the diaspora look after aging parents back home — before a small probl
 
 ## About Famva
 
-Famva is a remote elderly-care platform built for the diaspora — starting with UK-based families who have parents in Nigeria. A **Sponsor** (the adult child abroad) links to their parent's profile and gets AI-generated care plans, meal plans, and exercise routines tailored to the elderly person's health conditions, mobility, and local context, plus early-warning alerts when day-to-day patterns start to slip.
+Famva is a remote elderly-care platform built for the diaspora, starting with UK-based families who have parents in Nigeria. A **Sponsor** (the adult child abroad) links to their parent's profile and gets AI-generated care plans, meal plans, and exercise routines tailored to the elderly person's health conditions, mobility, and local context, plus early-warning alerts when day-to-day patterns start to slip.
 
 The goal isn't to replace visits home. It's to close the gap in between — so a decline in health or mood gets noticed in days, not months.
 

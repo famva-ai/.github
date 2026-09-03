@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/assets/logo-light.png">
-  <source media="(prefers-color-scheme: light)" srcset="profile/assets/logo-dark.png">
-  <img alt="Famva" src="profile/assets/logo-dark.png" width="260">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/famva-ai/.github/main/profile/assets/logo-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/famva-ai/.github/main/profile/assets/logo-dark.png">
+  <img alt="Famva" src="https://raw.githubusercontent.com/famva-ai/.github/main/profile/assets/logo-dark.png" width="260">
 </picture>
 
 <h3>Wellbeing Beyond Borders</h3>
